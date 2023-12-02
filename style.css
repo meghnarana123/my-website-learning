@@ -1,0 +1,111 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: xx-large;
+    
+    
+}
+body{
+    background-color:antiquewhite;
+
+}
+
+.navbar{
+    border-radius: 7px;
+    background:white;
+}
+ul{
+    list-style: none;
+overflow: auto;
+    
+}
+ .navbar li{
+    text-align: center;
+    float:right;
+    overflow: auto;
+    padding: 10px 10px;
+    margin: 12px 12px;
+}
+  .navbar ul li a{
+    border-radius: 8px;
+    margin: 10px;
+    display: inline block;
+    padding: 9px;
+    margin: 1px;
+    text-decoration: none;
+    background-color:rgb(216, 155, 216);
+    font-size: 20px;
+font-family: 'Courier New', Courier, monospace;    
+
+}
+.navbar button {
+    border-radius: 10px;
+    margin: 28px;
+    float: left;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.info{
+    text-align: center;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times,serif;
+    
+}
+#welcome{
+    position: fixed;
+    left: 40%;
+    top: 15%;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+
+}
+.button{
+    
+    cursor: pointer;
+    border-radius: 9px;
+ position: fixed; 
+   font-size: 30px;
+    top: 60%;
+    left: 30%;
+    background-color:rgb(188, 140, 231);
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+}
+
+
+.btn{
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+    background-color: #04aa6d;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 8px;
+display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    border:none;
+    top: 58%;
+    left: 50%;
+    position: fixed;
+}
+.btn :hover{
+    background-color: aliceblue;
+}
+.btn :active{
+    background-color: antiquewhite;
+     box-shadow: 0 5px #666;
+     transform: translateY(4px);
+}
